@@ -170,16 +170,51 @@ export default function MainSection() {
             <br /> tracks metrics for precise scoring.
           </h2>
         </div>
+        <span className="col-span-2"></span>
+        <div className="col-span-3">
+          <Image
+            src={"/image 7.svg"}
+            alt={""}
+            width={300}
+            height={300}
+            className="pl-10"
+          />
+        </div>
+        <span className="col-span-1"></span>
+        <div className="col-span-1">
+          <Image
+            src={"/Golf Path2.svg"}
+            alt={""}
+            width={100}
+            height={100}
+            className="w-full h-auto"
+          />
+        </div>
+        <div className="col-span-4">
+          <p className="pt-28">
+            We ensure your video is authentic while accurately tracking your
+            game details like strokes and ball distance to calculate your score
+            reliably.
+          </p>
+        </div>
+
+        <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
+          <p className="">SEE YOUR PROGRESS</p>
+        </div>
+        <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
+          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+            Track your progress with live updates
+            <br /> on our leaderboard.
+          </h2>
+        </div>
         <div className=" grid grid-cols-6 col-span-5">
           <div className="col-span-3">
-            <Image src={"/image 5.svg"} alt={""} width={300} height={300} />
+            <Image src={"/image 8.svg"} alt={""} width={300} height={300} />
           </div>
           <div className="col-span-3">
             <p>
-              Enjoy your nine-hole round while recording your gameplay using any
-              video device of your choice. Afterward, seamlessly upload both
-              your recorded round and score to our platform through our
-              user-friendly interface.
+              Follow your progress with live updates as our system generates
+              your net score.
             </p>
           </div>
         </div>
@@ -193,14 +228,14 @@ export default function MainSection() {
           />
         </div>
         <div className=" grid grid-cols-6 col-span-6">
-          <div className="col-span-3 pl-20 pt-20">
+          <div className="col-span-4 pl-20 pt-20">
             <p>
-              To record and share, capture your gameplay, then upload your round
-              with the score on our platform.
+              The leaderboard is continuously updated, enabling easy comparison
+              with other participants.
             </p>
           </div>
-          <div className="col-span-3 pl-12 pt-9">
-            <Image src={"/image 6.svg"} alt={""} width={300} height={300} />
+          <div className="col-span-2 pl-12 pt-9">
+            <Image src={"/image 9.svg"} alt={""} width={300} height={300} />
           </div>
         </div>
       </div>
