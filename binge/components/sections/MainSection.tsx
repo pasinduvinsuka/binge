@@ -6,7 +6,7 @@ export default function MainSection() {
   return (
     <div className="grid grid-cols-12 gap-2">
       <div className="flex flex-col justify-center items-center gap-2 col-span-12">
-        <h1 className="text-center font-bold text-4xl leading-relaxed">
+        <h1 className="text-center font-bold  md:text-2xl lg:text-4xl leading-relaxed">
           Elevating Your Golf Game, One Virtual Round At A <br />
           Time, Where Tradition Meets Innovation On The <br />
           Digital Fairway
@@ -32,7 +32,9 @@ export default function MainSection() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-2 col-span-12">
-        <h1 className="text-center font-bold text-4xl ">How it works</h1>
+        <h1 className="text-center font-bold text-4xl md:text-2xl lg:text-4xl ">
+          How it works
+        </h1>
       </div>
       <div className="col-span-12 grid grid-cols-12 pt-2">
         <div className="col-span-6"></div>
@@ -44,18 +46,24 @@ export default function MainSection() {
         <p>SIGN UP & PAY</p>
       </div>
       <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
-        <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+        <h2 className="text-center font-bold text-4xl leading-relaxed capitalize md:text-2xl lg:text-4xl">
           Start by registering securely and
           <br /> completing payment.
         </h2>
       </div>
       <div className="grid grid-cols-12 col-span-12">
         <div className=" grid grid-cols-6 col-span-5">
-          <div className="col-span-3">
-            <Image src={"/image 2.svg"} alt={""} width={300} height={300} />
+          <div className="sm: md:col-span-2 xl: 2xl: md:pt-5">
+            <Image
+              src={"/image 2.svg"}
+              alt={""}
+              width={300}
+              height={300}
+              className="w-full"
+            />
           </div>
-          <div className="col-span-3">
-            <p>
+          <div className="col-span-3 sm: md:col-span-4 xl: 2xl: md:pt-7">
+            <p className="sm: md: lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2">
               Embark on your exciting journey with us by taking the first step:
               signing up with your email and crafting a secure password to
               unlock exclusive access and benefits.
@@ -72,14 +80,14 @@ export default function MainSection() {
           />
         </div>
         <div className=" grid grid-cols-6 col-span-6">
-          <div className="col-span-3 pl-20 pt-20">
-            <p>
+          <div className="col-span-3 md:col-span-4  md:pt-10">
+            <p className="md:text-xs lg:text-sm xl:text-lg 2xl:text-2xl md:pl-4">
               Once logged in, proceed to the payment section where you can
               confidently complete your transaction using your preferred payment
               method.
             </p>
           </div>
-          <div className="col-span-3 pl-12 pt-9">
+          <div className="col-span-3 md:col-span-2 md:pt-10">
             <Image src={"/image 3.svg"} alt={""} width={300} height={300} />
           </div>
         </div>
@@ -87,14 +95,14 @@ export default function MainSection() {
           <p className="">CHOOSE COURSE & HANDICAP</p>
         </div>
         <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
-          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize md:text-2xl lg:text-4xl">
             Select your course and tee, and provide <br /> your handicap for
             fair competition.
           </h2>
         </div>
         <span className="col-span-2"></span>
         <div className="col-span-4">
-          <p className="pt-24 px-5">
+          <p className="sm: md:pt-14 lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2 md:px-5">
             Choose your preferred course and tee to tailor your golfing
             experience. Additionally, input your handicap to ensure fair and
             competitive play among participants.
@@ -122,17 +130,17 @@ export default function MainSection() {
           <p className="">PLAY & SHARE VIDEO</p>
         </div>
         <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
-          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize md:text-2xl lg:text-4xl">
             Film your nine-hole game and easily
             <br /> submit it with your score.
           </h2>
         </div>
         <div className=" grid grid-cols-6 col-span-5">
-          <div className="col-span-3">
+          <div className="col-span-3 md:col-span-2">
             <Image src={"/image 5.svg"} alt={""} width={300} height={300} />
           </div>
-          <div className="col-span-3">
-            <p>
+          <div className="col-span-3 md:col-span-4">
+            <p className="sm: md:pt-2 lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2 md:px-5">
               Enjoy your nine-hole round while recording your gameplay using any
               video device of your choice. Afterward, seamlessly upload both
               your recorded round and score to our platform through our
@@ -150,13 +158,13 @@ export default function MainSection() {
           />
         </div>
         <div className=" grid grid-cols-6 col-span-6">
-          <div className="col-span-3 pl-20 pt-20">
-            <p>
+          <div className="col-span-3 md:col-span-4 md:pt-12">
+            <p className="sm: md:pt-2 lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2 md:px-5">
               To record and share, capture your gameplay, then upload your round
               with the score on our platform.
             </p>
           </div>
-          <div className="col-span-3 pl-12 pt-9">
+          <div className="col-span-3 md:col-span-2 pt-9">
             <Image src={"/image 6.svg"} alt={""} width={300} height={300} />
           </div>
         </div>
@@ -165,7 +173,7 @@ export default function MainSection() {
           <p className="">VERIFY VIDEO & SCORE</p>
         </div>
         <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
-          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize md:text-2xl lg:text-4xl">
             Our system verifies video integrity and
             <br /> tracks metrics for precise scoring.
           </h2>
@@ -191,7 +199,7 @@ export default function MainSection() {
           />
         </div>
         <div className="col-span-4">
-          <p className="pt-28">
+          <p className="sm: md:pt-16 lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2 md:px-5">
             We ensure your video is authentic while accurately tracking your
             game details like strokes and ball distance to calculate your score
             reliably.
@@ -202,17 +210,17 @@ export default function MainSection() {
           <p className="">SEE YOUR PROGRESS</p>
         </div>
         <div className="col-span-12 items-center justify-center text-center pt-3 pb-4">
-          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize">
+          <h2 className="text-center font-bold text-4xl leading-relaxed capitalize md:text-2xl lg:text-4xl">
             Track your progress with live updates
             <br /> on our leaderboard.
           </h2>
         </div>
         <div className=" grid grid-cols-6 col-span-5">
-          <div className="col-span-3">
+          <div className="col-span-3 md:col-span-2">
             <Image src={"/image 8.svg"} alt={""} width={300} height={300} />
           </div>
-          <div className="col-span-3">
-            <p>
+          <div className="col-span-3 md:col-span-4">
+            <p className="sm: md:pt-16 lg: xl:pt-8 2xl:pt-14 md:text-xs lg:text-sm xl:text-lg md:pl-2 ">
               Follow your progress with live updates as our system generates
               your net score.
             </p>
@@ -228,13 +236,13 @@ export default function MainSection() {
           />
         </div>
         <div className=" grid grid-cols-6 col-span-6">
-          <div className="col-span-4 pl-20 pt-20">
-            <p>
+          <div className="col-span-4 pl-20 ">
+            <p className="sm: md:pt-16 lg: xl:pt-8 2xl:pt-14 md:text-sm lg:text-sm xl:text-lg md:pl-2 md:px-5">
               The leaderboard is continuously updated, enabling easy comparison
               with other participants.
             </p>
           </div>
-          <div className="col-span-2 pl-12 pt-9">
+          <div className="col-span-2 pt-9">
             <Image src={"/image 9.svg"} alt={""} width={300} height={300} />
           </div>
         </div>
